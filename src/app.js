@@ -8,6 +8,10 @@ import routes from './routes';
 //Configuração do base dados
 import "./database";
 
+// VARIABLE CONNECTION HEROKU DEPLOY
+
+const PORT = process.env.VARIABLE_CONNECTION_HEROKU;
+
 class App {
    constructor() {
      this.server = express();
