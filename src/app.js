@@ -10,7 +10,7 @@ import "./database";
 
 // VARIABLE CONNECTION HEROKU DEPLOY
 
-const PORT = process.env.VARIABLE_CONNECTION_HEROKU;
+const PORT = process.env.PORT || 3000;
 
 class App {
    constructor() {
